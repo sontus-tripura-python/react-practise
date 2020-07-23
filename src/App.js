@@ -3,6 +3,7 @@ import './App.css';
 import Index from "./components/Index";
 import Functional from "./components/Functional"
 import Arrow from "./components/Arrow";
+import State from "./components/State";
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,8 @@ function App() {
       <hr/>
         <Arrow/>
 
-
+ <hr/>
+      <State/>
 
 
 
