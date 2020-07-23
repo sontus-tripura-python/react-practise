@@ -4,11 +4,11 @@ class Index extends Component {
     render() {
         return (
            <div>
-            <h1> heding one </h1>
 
-            <h2> Sontus tripura </h2>
 
-       <p> I am from fuctional </p>
+            <h2> Hell I am { this.props.name } and { this.props.age} years old</h2>
+
+
 
             </div>
 
